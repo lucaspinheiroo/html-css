@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body{
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+header{
+    
+background-image: linear-gradient(to bottom,  #38c979d7 , #1d683e8a );
+color: White;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: normal;
+height: 150px;
+margin: 0px 0px 0px 0px;
+border: 0px;
+
+
+}
+h1{
+    text-align: center;
+    font-weight: lighter;
+    
+}
+h2{
+    font-family: Android;
+    color: #299158d7;
+    border: 10px;
+padding: 10px;
+margin-left: 10px;
+}
+h3{
+    background-image: linear-gradient(to left, white, #36be7333);
+    font-family: Android;
+    font-size: 16px;
+    color: #299158d7;
+    margin-left:10px ;
+}
+header>p{
+    text-align: center;
+}
+nav>a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px 30px 5px;
+    margin: 10px;
+
+}
+main{
+    background-color: white;
+    margin: 0px 50px 0px 50px;
+    
+    font-weight: lighter;
+    
+}
+main >p{
+    padding: 10px;
+   text-indent: 2em;
+   font-family: sans-serif;
+   
+}
+article > p{
+    font-family: sans-serif;
+    text-indent: 2em;
+    padding: 10px;
+}
+aside{
+    text-indent: 2em;
+}
+picture{
+    border-image-width: auto;
+    padding: 20px;
+}
