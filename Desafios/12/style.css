@@ -12,29 +12,6 @@ body{
     
 }
 
-@media (max-width: 1200px) {
-    body {
-        width: 1000px;
-    }
-}
-
-@media (max-width: 1000px) {
-    body {
-        width: 768px;
-    }
-}
-
-@media (max-width: 768px) {
-    body {
-        width: 425px;
-    }
-}
-
-@media (max-width: 425px) {
-    body {
-        width: 320px;
-    }
-}
 
 header{
     background-color: black;
@@ -50,7 +27,7 @@ header{
 header h1{
     color: white;
     font-family: 'Passion One', cursive;
-    font-size: 8em;
+    font-size: 10vw;
     margin: 0px;
     padding-top: 30px;
 
