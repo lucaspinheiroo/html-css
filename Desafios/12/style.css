@@ -8,7 +8,8 @@
 body{
     background-color: white;
     margin: auto;
-    width: 1200px;
+    width: 100%;
+    min-height: 100vh;
     
 }
 
@@ -16,10 +17,10 @@ body{
 header{
     background-color: black;
     width: 100vp;
-    text-align: center;
     max-height: 250px;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: center;
     
 
 
@@ -30,6 +31,7 @@ header h1{
     font-size: 10vw;
     margin: 0px;
     padding-top: 30px;
+    
 
  
 }
@@ -39,6 +41,7 @@ header h2 {
     padding-bottom: 10px;
     font-size: 1em;
     font-weight: lighter;
+    
     
 }
 
