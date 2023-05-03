@@ -13,14 +13,36 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th {
             border: 1px solid black;
             padding: 10px;
+        
         }
+       
+         
         thead,  tfoot{
             background-color: grey;
             color: white;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+
+        }
+        tbody >tr:nth-child(2n){
+            background-color: lightgray;
+        }
+        td.num {
+            text-align: right;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: grey;
         }
     </style>
 </head>
@@ -28,14 +50,15 @@
     <h1>Uso de tabelas grandes</h1>
 
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
-                <tr>
+               <tr>
                     <td>São Paulo</td>
                     <td classe="num">46 024 937</td>
                 </tr>
@@ -58,10 +81,46 @@
                 <tr>
                     <td>Rio Grande do Sul</td>
                     <td classe="num">11 088 065</td>
+                </tr> 
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="num">9.051.113</td>
+                </tr>
+                <tr>
+                    <td>Ceará</td>
+                    <td>8.936.431</td>
+                </tr>
+                <tr>
+                    <td>Pará</td>
+                    <td>8.442.962</td>
+                </tr>
+                <tr>
+                    <td>Santa Catarina</td>
+                    <td>7.762.154</td>
+                </tr>
+                <tr>
+                    <td>Goiás</td>
+                    <td>6.950.976</td>
+                </tr>
+                <tr>
+                    <td>Maranhão</td>
+                    <td>6800605</td>
+                </tr>
+                <tr>
+                    <td>Espírito Santo</td>
+                    <td>4108508</td>
+                </tr>
+                <tr>
+                    <td>Paraíba</td>
+                    <td>4030961</td>
+                </tr>
+                <tr>
+                    <td>Amazonas</td>
+                    <td>3952262</td>
                 </tr>
         </tbody>
         <tfoot>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td><strong>210.147.125</strong></td>
         </tfoot>
     </table>
